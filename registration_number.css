@@ -1,0 +1,21 @@
+.regNumber{
+  width: 25em;
+  margin-top: 15em;
+
+}
+.regPlate{
+  height: 30px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 5px;
+  border: solid black;
+  font-size: 50px;
+  font-style:  solid bold;
+  font-stretch: condensed;
+  padding-bottom: 20px;
+}
+h1{
+  font-size: 50px;
+  font-style: italic;
+  color: red;
+}
