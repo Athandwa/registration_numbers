@@ -1,21 +1,37 @@
-.regNumber{
-  width: 25em;
-  margin-top: 15em;
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px #FF0000;
+    color: yellow;
+    font-size: 4em;
+    font-style: italic;
+    padding: 100px;
+  }
 
+.regBox {
+    text-align: center;
 }
-.regPlate{
-  height: 30px;
-  text-align: center;
-  background-color: yellow;
+.addBtn{
   border-radius: 5px;
-  border: solid black;
-  font-size: 50px;
-  font-style:  solid bold;
-  font-stretch: condensed;
-  padding-bottom: 20px;
 }
-h1{
-  font-size: 50px;
-  font-style: italic;
-  color: red;
+html {
+    border: 5px solid;
+    width: auto;
+    height: 42em;
+    border-radius: 25px;
+}
+.carReg{
+  height: 30px;
+  border: solid grey;
+  border-radius: 10px;
+}
+
+li{
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 30px 570px 30px 490px;
+  background-color: lightblue;
+}
+.location{
+  text-align: center;
 }

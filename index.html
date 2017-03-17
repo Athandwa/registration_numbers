@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="registration_number.css">
-    <title>Registration_Numbers Webpage</title>
+    <title>Registration_Number Page</title>
     <style>
         body {
-
-            background-image: url("bg_about.jpg");
+            background-image: url("bg_about.jpg")
         }
     </style>
-  </head>
-  <body>
-    <center><div class="regNumber">
-      <h1>Registration_Number</h1>
-      <p class="regPlate">CA 45679</p>
+
+</head>
+
+<body>
+    <h1>Registration Numbers</h1>
+    <div class="regBox">
+    <form id="regAdd">
+            <input type="text" class="carReg" name="text1" placeholder="Registration Numbers">
+            <button type="submit" class="addBtn" name="submit" value="submit">Add</button>
+            <!-- <input type="button" class="addBtn" value="Add"> -->
+    </div>
+    <div class="location">
+    <form>
+      <input type="radio" name="location" value="Show All">Show All
+      <input type="radio" name="location" value="Estern Cape">Eastern Cape
+      <input type="radio" name="location" value="Western Cape">Western Cape
+      <input type="radio" name="location" value="Gauteng">Gauteng
+      <input type="radio" name="location" value="KwaZulu-Natal">KwaZulu-Natal
+    </form>
+    </div>
+    <center><div class="regs">
+        <ul id="regList"></ul>
     </div></center>
-  </body>
+    </form>
+</body>
+<script src="registration_number.js" charset="utf-8"></script>
+
 </html>
