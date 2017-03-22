@@ -5,33 +5,38 @@ h1 {
     font-size: 4em;
     font-style: italic;
     padding: 100px;
-  }
+    padding-bottom: 10px;
+}
 
 .regBox {
     text-align: center;
 }
-.addBtn{
-  border-radius: 5px;
+
+.addBtn {
+    border-radius: 5px;
 }
+
 html {
     border: 5px solid;
     width: auto;
     height: 42em;
     border-radius: 25px;
 }
-.carReg{
-  height: 30px;
-  border: solid grey;
-  border-radius: 10px;
+
+.carReg {
+    height: 30px;
+    border: solid grey;
+    border-radius: 10px;
 }
 
-li{
-  list-style: none;
-  border: 1px solid black;
-  border-radius: 25px;
-  margin: 30px 570px 30px 490px;
-  background-color: lightblue;
+li {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 30px 570px 30px 490px;
+    background-color: lightblue;
 }
-.location{
-  text-align: center;
+
+.location {
+    text-align: center;
 }
